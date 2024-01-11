@@ -58,7 +58,7 @@ export default{
         formData.append('file', this.selectedFile);
   
         try {
-          const response = await fetch('https://{上传接口地址}/', {
+          const response = await fetch('https://backup.promefire.top/', {
             method: 'POST',
             body: formData,
           });
