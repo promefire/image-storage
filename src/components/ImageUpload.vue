@@ -59,8 +59,8 @@ export default{
   
         try {
           // 上传地址 https://image-storage-worker.1311195013.workers.dev/
-          // const response = await fetch('https://backup.promefire.top/upload', {
-          const response = await fetch(' https://image-storage-worker.1311195013.workers.dev/upload', {
+          const response = await fetch('https://backup.promefire.top/upload', {
+          // const response = await fetch(' https://image-storage-worker.1311195013.workers.dev/upload', {
             method: 'POST',
             body: formData,
           });
